@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 이미지 태그 
+          -필수 속성 : src (source 줄임말) -->
+    <!-- https://img.seoul.co.kr/img/upload/2022/11/13/SSI_20221113151118_O2.jpg -->
+    <img src = "https://img.seoul.co.kr/img/upload/2022/11/13/SSI_20221113151118_O2.jpg" width = "700px">
+    <img src = "https://i.pinimg.com/736x/d6/58/ff/d658ff3a75c641a2ccb39855c6eb85a8.jpg" width = "700px">
+
+    <!-- (2) 상대 경로 -->
+    <!-- 1. 현재를 기준으로 바로 접근 가능 : ./ (생략가능) -->
+    <!-- <img src="./img/pic.jpg"> -->
+    <!-- 2. 상위를 기준으로 접근 가능 : ../ -->
+    <!-- 2-1. 여러번 상위로 나와야 할 때 : ../../../ -->
+    <!-- 2-2. 최상위를 기준으로 : / -->
+    <img src="../img/pic.jpg" width = "700px">
+
+</body>
+</html>

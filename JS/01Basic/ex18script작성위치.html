@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 외부 방식
+         외부의 js 파일 안에 작성 후 연결 -->
+    <!-- async : HTML로딩을 멈추지 않음
+         defer : HTML로딩이 다 되고 나서 script 실행 -->
+    <script defer src = "./ex18외부script.js"></script>
+</head>
+<body>
+    <!-- 내부 방식
+         head 또는 body 영역의 script 태그 안에 직접 작성 -->
+    <script>
+        console.log('내부 방식입니다!');
+    </script>
+
+    <!-- 인라인 방식
+         태그에 직접 기능을 넣어줄 때 작성 -->
+    <button id = "btn" onmouseenter="console.log('마우스 올림')">Mouse👊</button>
+    
+
+</body>
+</html>
