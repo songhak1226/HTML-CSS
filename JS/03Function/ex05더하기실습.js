@@ -2,7 +2,7 @@ let num1 = Number(prompt('첫번째 숫자를 입력'));
 let num2 = Number(prompt('두번째 숫자를 입력'));
 
 //1. 함수 선언문
-function addNumber1(){
+function addNumber1(num1,num2){
     return num1 + num2;
 }
 //2. 함수 표현식
