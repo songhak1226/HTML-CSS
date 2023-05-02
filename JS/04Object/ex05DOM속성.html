@@ -9,6 +9,7 @@
 <body>
     <div id="container">
         <p>DOM 사용하기</p>
+        <p style = "display: none;">숨겨진 글씨</p>
     </div>
     <button id = "textBtn">TEXT</button>
     <!-- 인라인 스크립트로 클릭 이벤트 주기 
@@ -29,6 +30,7 @@
             let domText = document.getElementById('container').innerText;
             console.log('내용만 : ', domText);
             console.log('내용만2 : ', domVal.innerText);
+            console.log('숨겨진 내용까지 : ', domVal.textContent);
 
             // 내용 변경
             domVal.innerText = '<h1>JavaScript</h1>';
