@@ -26,9 +26,11 @@
             $(this).css('color','red')
         });
         // 3. h1 태그 마우스 내릴 시, 글씨색 -> 검은색 -> mouseout
+
         // $('h1')
         // .mouseover(()=>{$('h1').css('color','red')})
         // .mouseout(function(){$('h1').css('color','black')});
+        
         $('h1').on('mouseout',(e)=>{
             $(e.target).css('color','black')
         });

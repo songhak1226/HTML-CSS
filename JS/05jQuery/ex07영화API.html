@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie api</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+    <!-- ajax JS파일 연결 -->
+    <script src="./ex07영화 API_ajax.js"></script>
+    <!-- jQuery 라이브러리 연결 -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <!-- 영화 진흥위원회 API를 가져와서
+         일일 박스오피스 영화 top10의 순위, 제목, 개봉일 출력
+     -->
+     <button onclick="getAPI()">순위 보기😎</button>
+     <br><br>
+     <!-- 출력될 공간 -->
+     <div class="container">
+        <!-- <table>
+            <tr>
+                <th>순위</th>
+                <th>영화제목</th>
+                <th>개봉일</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>해리포터</td>
+                <td>2023-01-01</td>
+            </tr>
+        </table> -->
+     </div>
+</body>
+</html>
